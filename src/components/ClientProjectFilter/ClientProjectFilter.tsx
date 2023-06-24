@@ -3,6 +3,8 @@ import "./ClientProjectFilter.scss";
 import { Star } from "react-bootstrap-icons";
 
 export default function ClientProjectFilter() {
+  const starCount = 342;
+
   return (
     <Stack direction="horizontal" className="clientProjectFilter">
       <Stack direction="horizontal" className="clientProjectFilter-filters">
@@ -27,7 +29,9 @@ export default function ClientProjectFilter() {
       <div className="clientProjectFilter-ratings ms-auto">
         <small>Número de avaliações:</small>
         <Star className="clientProjectFilter-ratings__starIcon" />
-        <small className="clientProjectFilter-ratings__starCount">342</small>
+        <small className="clientProjectFilter-ratings__starCount">
+          {starCount}
+        </small>
       </div>
     </Stack>
   );

@@ -32,6 +32,7 @@
             background-color: #f7fafc;
             border: 1px solid #f7fafc;
             color: var(--accent);
+            border: none;
 
             &--active {
                 border-radius: 8px;
@@ -66,6 +67,11 @@
             .form-check-input:checked {
                 background-color: var(--accent);
                 border-color: var(--accent);
+            }
+
+            .form-check-label {
+                font-weight: 500;
+                color: var(--black);
             }
         }
     }
