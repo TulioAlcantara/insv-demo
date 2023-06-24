@@ -1,0 +1,28 @@
+.header {
+    background: #F7FAFC;
+    padding: 1rem 0;
+
+    &__title {
+        color: var(--black);
+        font-size: 2rem;
+        font-family: Inter;
+        font-weight: 800;
+        margin-bottom: 0;
+    }
+
+    &__info {
+        font-size: 0.875rem;
+        font-family: Dm Sans;
+        line-height: 1.5rem;
+        letter-spacing: -0.0125rem;
+        color: #101010;
+        display: flex;
+        gap: 1rem;
+
+
+        &__logoutIcon {
+            width: 1.1rem;
+            height: 1.1rem;
+        }
+    }
+}
